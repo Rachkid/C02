@@ -10,6 +10,6 @@ main()
     {
       f=f*i;
     }
-  printf("la factorielle de %d est: %d \n", n,f);
+  printf("Le factoriel de %d est: %d \n", n,f);
   return 0;
 }
