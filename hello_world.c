@@ -3,6 +3,6 @@
 int main()
 {
 // ce code affiche "Hello, World!" à l'écran 
-  printf("Hello, World!");
+  printf("Hello, World!\n");
   return o;
 }
