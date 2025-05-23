@@ -1,7 +1,10 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+
+// Ce code écrit un programme en C qui affiche "Hello, World!" à l’écran
+
+int main(int argc, char const *argv[])
 {
-// ce code affiche "Hello, World!" à l'écran 
-  printf("Hello, World!\n");
-  return o;
+    printf("Hello, World!");
+    return 0;
 }
+
