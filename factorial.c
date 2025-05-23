@@ -1,15 +1,17 @@
-# include<stdio.h>
-main()
+#include <stdio.h>
+
+// Ce code permet de lire un nombre entier et calculer son factoriel
+
+int main(int argc, char const *argv[])
 {
-  // ce code calcul la factorielle d'un nombre entrer par l'utilisateur 
-  int n,i,f
-  printf("Donnez un nombre: \n");
-  scanf("%d",&n);
-  f=1;
-  for(i=1; i<=n; i++)
+    int a, factoriel=1;
+    scanf("%d", &a);
+
+    for (int i = 1; i <= a; i++)
     {
-      f=f*i;
+        factoriel *= i;
     }
-  printf("Le factoriel de %d est: %d \n", n,f);
-  return 0;
+    printf("Le factoriel de %d est : %d", a, factoriel);
+
+    return 0;
 }
