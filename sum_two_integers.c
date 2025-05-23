@@ -1,13 +1,13 @@
-#include<stdio.h>
-main()
+#include <stdio.h>
+
+// Ce code demande à l’utilisateur de saisir deux entiers, puis afficher leur somme
+
+int main(int argc, char const *argv[])
 {
-  // ce code calcul la somme de deux entiers saisis par l'utilisateur 
-  int a,b,sum;
-  printf("Entrez le premier nombre:\n");
-  scanf("%d%",&a);
-  printf("Entrez le deuxième nombre:\n");
-  scanf("%d",&b);
-  sum = a + b;
-  printf("la somme est:%d\n", sum);
-  return 0;
+    int a, b, sum;
+    scanf("%d %d", &a, &b);
+    sum = a + b;
+    printf("La somme est : %d", sum);
+    return 0;
 }
+
